@@ -21,7 +21,7 @@ void setup()
 
 void loop()
 {
-  Serial.flush();
+  // Serial.flush();
   if (_run)
   {
     _run = false;
